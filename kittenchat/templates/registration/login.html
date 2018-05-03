@@ -4,11 +4,11 @@
   <link rel="stylesheet" type="text/css" href="/static/registration/style.css">
 </head>
 
-<div class="who knows">
-  <div class="login-form">
+<div class="background">
+  <div id="login-form" class="registration-form">
     <form class="login" method="POST" action="/chat/login.html/">
       <h3>You must log in to view Jessica's Lovely Message Board.</h3>
-      <img id="login-unicorn" src="http://s4.thingpic.com/images/43/kXzoimWAgfNywwu6TV4fAu52.jpeg" alt="Unicorn of Creation">
+      <img id="login-unicorn" class="registration-image" src="http://s4.thingpic.com/images/43/kXzoimWAgfNywwu6TV4fAu52.jpeg" alt="Unicorn of Creation">
 
       {% csrf_token %}
 

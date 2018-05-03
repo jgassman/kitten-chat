@@ -9,5 +9,6 @@ print(chat_urls)
 urlpatterns = [
     url(r'^chat/', include(chat_urls)),
     url(r'^login/$', auth_views.login),
+    url(r'^logout/$', auth_views.logout),
     url(r'^admin/', admin.site.urls),
 ]

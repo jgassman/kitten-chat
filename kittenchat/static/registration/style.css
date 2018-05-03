@@ -1,11 +1,11 @@
 @import url(https://fonts.googleapis.com/css?family=Aclonica);
 
-.who.knows {
+.background {
   background-color: #f7f8f9;
   padding: 10px;
 }
 
-.login-form {
+.registration-form {
   background-color: #42f4f4;
   color: blue;
   font-family: 'Aclonica';
@@ -16,7 +16,7 @@
   text-align: center;
 }
 
-#login-unicorn {
+.registration-image {
   width: 90%;
   height: auto;
 }
