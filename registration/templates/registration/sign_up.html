@@ -1,0 +1,17 @@
+{% load static %}
+
+<head>
+  <link rel="stylesheet" type="text/css" href="/static/registration/style.css">
+</head>
+
+<div class="background">
+  <div class="registration-form">
+    <h3>Welcome to Jessica's Lovely Message Board!</h3>
+    <img src="https://s-media-cache-ak0.pinimg.com/736x/e4/0c/d1/e40cd105938cad264c1aeb9f40b5a608.jpg" alt="Unicorn of Creation" style="width:90%;height:auto;">
+    <form method="post" action='{% url 'registration:sign_up' %}'>
+      {% csrf_token %}
+      {{ form.as_p }}
+      <input type="submit" value="Submit" />
+    </form>
+  </div>
+</div>

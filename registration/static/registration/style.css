@@ -20,3 +20,10 @@
   width: 90%;
   height: auto;
 }
+
+.helptext {
+  font-size: 10px;
+  display: block;
+  max-width: 40%;
+  margin: 0 auto;
+}

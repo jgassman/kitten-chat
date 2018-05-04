@@ -6,7 +6,8 @@
 
 <div class="background">
   <div id="login-form" class="registration-form">
-    <form class="login" method="POST" action="/chat/login.html/">
+    <!-- <form class="login" method="POST" action="/chat/login.html/"> -->
+    <form class="login" method="POST">
       <h3>You must log in to view Jessica's Lovely Message Board.</h3>
       <img id="login-unicorn" class="registration-image" src="http://s4.thingpic.com/images/43/kXzoimWAgfNywwu6TV4fAu52.jpeg" alt="Unicorn of Creation">
 
@@ -16,6 +17,6 @@
 
     <input type="submit" value="Log In"/>
     </form>
-    <p>New here? Create an account <a href="/posts/adduser.html/">here</a></p>
+    <p>New here? Create an account <a href='{% url 'registration:sign_up' %}'>here</a></p>
   </div>
 </div>
